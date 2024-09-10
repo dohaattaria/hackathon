@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-nav{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    border: 3px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.img{
+    width: 20px;
+    height: 20px;
+}
+ul li{
+    list-style-type: none;
+}
+li{
+   display: inline-flex;
+   padding: 30px;
+   font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black; 
+}
+button{
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+    width: 170px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+.main-head{
+    
+    background-color:whitesmoke ;
+    display: flex;
+}
+
+.header{
+    padding: 60px;
+    display: flex;
+}
+h1{
+    font-size: 40px;
+    margin-left: 50px;
+  padding-top: 40px;
+
+}
+p{
+    padding-top: 30px;
+    margin-left: 50px;
+}
+
+.buttn{
+    background-color: black;
+    color: white;
+    margin-left: 50px;
+    border-radius: 6px solid;
+    margin-top: 20px;
+}
+.image{
+    background-color:whitesmoke ;
+    display: flex;
+    gap: 90px;
+  padding: 90px;
+  border-bottom:2px solid red ;
+}
+.bottom{
+    display: inline-flex;
+    margin-left: 50px;
+}
+.buttn2{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 2px;
+    margin-top: 40px;
+    padding: 20px;
+}
+@media screen and (max width 480px) {
+    .navbar{
+        width: 100%;
+    }
+    ul li{
+        display: none;
+    }
+    
+}
